@@ -1,21 +1,21 @@
 from pygame import mixer
 import pygame
 import time
-time.sleep(0)
-mixer.init()
+#time.sleep(0)
+#mixer.init()
 #Theme:mixer.music.load(r'C:\Users\Arash Bahrami\Music\UNDERTALE SOUNDTRACK/Stronger_Monsters.mp3')
 #pygame.mixer.music.set_volume(0.5)
 #pygame.mixer.music.play(-1, 0.0, 5000)
 #Theme:mixer.music.load(r'C:\Users\Arash Bahrami\Music\UNDERTALE SOUNDTRACK/rude_buster.mp3')
 #pygame.mixer.music.set_volume(0.5)
 #pygame.mixer.music.play(-1, 0.0, 5000)
-Theme:mixer.music.load(r'C:\Users\Arash Bahrami\Music\UNDERTALE SOUNDTRACK/aee-phase-3.mp3')
-pygame.mixer.music.set_volume(0.25)
-pygame.mixer.music.play(-1, 0.0, 5000)
+#Theme:mixer.music.load(r'C:\Users\Arash Bahrami\Music\UNDERTALE SOUNDTRACK/aee-phase-3.mp3')
+#pygame.mixer.music.set_volume(0.25)
+#pygame.mixer.music.play(-1, 0.0, 5000)
 #Theme:mixer.music.load(r'C:\Users\Arash Bahrami\Music\UNDERTALE SOUNDTRACK/no_more_deals.mp3')
 #pygame.mixer.music.set_volume(0.5)
 #pygame.mixer.music.play(-1, 0.0, 5000)
-mixer.music.play()
+#mixer.music.play()
 #choose theme by removing the comment(#)
 def main(spelllist= [["chivalrous"], ["fireball","avada kadavera"], ["crossbow"]]):
 
@@ -127,7 +127,7 @@ def main(spelllist= [["chivalrous"], ["fireball","avada kadavera"], ["crossbow"]
        print("re-enter choice")
        main()
 
-   battle(Class, enemy, pHP, pATK, pDEF, eHP, eATK, eDEF, spelllist, spells, spell,)
+def  battle(Class, enemy, pHP, pATK, pDEF, eHP, eATK, eDEF, spelllist, spells, spell,pDMG,eDMG):
    pass
 
 
